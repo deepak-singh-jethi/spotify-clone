@@ -92,7 +92,7 @@ input::placeholder{
 }
 /* spotify-logo */
 .spotify-logo>img{
-   height: 3.1rem !important;
+   height: 3.1rem ;
    padding-left: 10px;
 }
 
@@ -500,7 +500,7 @@ font-weight: 400;
     width: 25vw;
      }
 }
-@media only screen and (max-width: 578px) and (min-width: 300px) {
+@media only screen and (max-width: 578px) and (min-width: 310px) {
     .side-bar {
         width: 40vw;
     }
@@ -605,9 +605,30 @@ font-weight: 400;
      .song-control-lower>p {
      font-size: 9px;
      }
-         #volume {
+     #volume {
           
-             width: 20%;
+      width: 20%;
             
-         }
+     }
+    .shows>img{
+     width: 65%;
+    }
+        .side-list>ul>li {
+     
+            font-size: 10px;
+           
+        }
+}
+@media only screen and (max-width:310px){
+    li{
+        font-size: 8px;
+    }
+    .shows>img{
+        width: 50%;
+    }
+     .shows>h4 {
+         font-size: 16px;
+     }
+    
+    
 }
