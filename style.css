@@ -200,6 +200,10 @@ font-weight: 400;
     width: 300px;
     margin-block: 8px;
     border-radius: 4px;
+    transition: all 0.5s ease;
+}
+.playlist:hover{
+    scale: 0.9;
 }
 
 .playlist>img{
@@ -256,6 +260,7 @@ font-weight: 400;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
+    transition: all 1s ease;
 }
 .shows>h5{
     color: var(--gray-text);
@@ -264,12 +269,13 @@ font-weight: 400;
     width: 90%;
 }
 .shows:hover{
+    scale: 0.9;
+    transition: all 1s ease-in-out 0s;
     box-shadow: 0px 0px 8px rgb(55, 54, 54);
-    border-radius: 5px;
+   
 }
 /* ---------------------------------------- */
 /* bottom music player */
-
 
 .play-music-area{
   height: 11vh;
