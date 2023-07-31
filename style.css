@@ -56,7 +56,7 @@ a{
 
 .side-bar{
     height: 89vh;
-    flex: 1;
+    width: 20vw;
     background-color: var(--dark);
     border-radius: 0.5rem;
   
@@ -126,7 +126,7 @@ font-weight: 400;
 
 
 .content-area{
-    flex: 4;
+   width: 80vw;
    display: flex;
    flex-direction: column;
    justify-content: start;
@@ -169,6 +169,7 @@ font-weight: 400;
     align-items: flex-start;
     flex-direction: column;
     background: none;
+ 
     
 
 }
@@ -230,10 +231,16 @@ font-weight: 400;
     justify-content: space-evenly;
     margin-top: 25px;
     gap: 15px;
+    margin-left: 15px;
 
 }
-.show{
-    border-radius: 4px;
+.shows{
+    margin-block: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
 }
 .shows>h5{
     color: var(--gray-text);
@@ -241,7 +248,10 @@ font-weight: 400;
 .shows>img{
     width: 90%;
 }
-
+.shows:hover{
+    box-shadow: 0px 0px 8px rgb(55, 54, 54);
+    border-radius: 5px;
+}
 /* ---------------------------------------- */
 /* bottom music player */
 
@@ -346,3 +356,220 @@ font-weight: 400;
     height: 20%;
 }
 
+
+@media only screen and (max-width: 954px) and (min-width: 670px){
+   .side-bar{
+    width: 30vw;
+   }
+   .content-area{
+    width: 70vw;
+   }
+    .spotify-logo>img{
+        height: 2.6rem !important;
+    }
+   
+    .logo-flex>p{
+       font-size: 19px;
+    }
+    .logo-flex>img {
+        height: 1.6rem;
+        margin-right: 1.2rem;
+    }
+    .playlist{
+        width: 250px;
+        /* justify-content: space-between; */
+    }
+    .playlist>img{
+        height: 75px;
+    }
+    .playlist-area {
+            
+            justify-content: space-between;
+         
+     }
+     .song-extra-control{
+       gap: 2px;
+     }
+     .play-music-area{
+        height: 11vh;
+        align-items: flex-start;
+        margin-block: auto;
+     }
+     .play-music-area {
+
+    align-items: flex-start;
+    padding-top: 14px;
+     }
+     .song-extra-control>img {
+        height: 2.2vh;
+     }
+     .song-playing-name>h4{
+        font-size: 14px;
+     }
+     .song-playing-name>p{
+        font-size: 10px;
+     }
+    .music-art{
+        width: 15%;
+    }
+    .song-playing {
+    margin-left: 1vw;
+    gap: 9px;
+    width: 25vw;
+     }
+}
+
+@media only screen and (max-width: 671px) and (min-width: 579px) {
+.side-bar {
+        width: 40vw;
+    }
+        .content-area {
+            width: 60vw;
+        }
+
+    .spotify-logo>img{
+        height: 2rem !important;
+    }
+
+   
+    .logo-flex>p {
+        font-size: 18px;
+    }
+
+    .logo-flex>img {
+        height: 1.1rem;
+        margin-right: 1.1rem;
+    }
+
+    /* extra added */
+     .song-extra-control{
+       gap: 2px;
+     }
+     .play-music-area{
+        height: 11vh;
+        align-items: flex-start;
+        margin-block: auto;
+     }
+     .play-music-area {
+
+    align-items: flex-start;
+    padding-top: 14px;
+     }
+     .song-extra-control>img {
+        height: 2.2vh;
+     }
+     .song-playing-name>h4{
+        font-size: 14px;
+     }
+     .song-playing-name>p{
+        font-size: 10px;
+     }
+    .music-art{
+        width: 15%;
+    }
+    .song-playing {
+    margin-left: 1vw;
+    gap: 9px;
+    width: 25vw;
+     }
+}
+@media only screen and (max-width: 578px) and (min-width: 300px) {
+    .side-bar {
+        width: 40vw;
+    }
+
+    .content-area {
+        width: 60vw;
+    }
+
+    .spotify-logo>img {
+        height: 1.8rem !important;
+    }
+
+
+    .logo-flex>p {
+        font-size: 14px;
+    }
+
+    .logo-flex>img {
+        height: 0.9rem;
+        margin-right: 0.9rem;
+    }
+
+    /* -- */
+        .nav-line-seperation {
+            line-height: 1.7;
+        }
+        .playlist{
+            width: 190px;
+        }
+        .playlist>img {
+           height: 40px;
+        }
+        .playlist>p{
+            font-size: 9px;
+        }
+        .playlist-artist-area>h1 {
+          font-weight: 900;
+          color: white;
+          font-size: 20px;
+        }
+        .show-head>h3 {
+            font-weight: 700;
+            font-size: 15px;
+        }
+        .show-head>p{
+            font-size: 9px;
+        }
+        .ul>li{
+            font-size: 10px;
+        }
+/* -------- */
+
+
+         .song-extra-control{
+       gap: 2px;
+     }
+     .play-music-area{
+        height: 11vh;
+        align-items: flex-start;
+        margin-block: auto;
+     }
+     .play-music-area {
+
+    align-items: flex-start;
+    padding-top: 14px;
+     }
+     .song-extra-control>img {
+        height: 2.2vh;
+     }
+     .song-playing-name>h4 {
+    font-size: 12px;
+     }
+     .song-playing-name>p{
+        font-size: 10px;
+     }
+    .music-art{
+        width: 13%;
+    }
+    .song-playing {
+    margin-left: 1vw;
+    gap: 9px;
+    width: 25vw;
+     }
+     .like-a-song{
+        height: 1.2vh;
+     }
+     #play-button {
+      height: 3vh;
+     }
+     .song-control-upper {
+        gap: 3px;
+     }
+     .song-control-lower>img {
+      width: 50%;
+     }
+     .song-control-lower>p {
+     font-size: 9px;
+     }
+}
