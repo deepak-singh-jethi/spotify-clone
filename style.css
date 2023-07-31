@@ -75,6 +75,21 @@ a{
    
  
 }
+input{
+    outline: none;
+    border: none;
+    display: block;
+    background: black;
+    overflow: visible;
+    color: white;
+    font-size: 18px;
+    
+}
+input::placeholder{
+    color: white;
+    font-size: 18px;
+    height: fit-content;
+}
 /* spotify-logo */
 .spotify-logo>img{
    height: 3.1rem !important;
@@ -371,6 +386,9 @@ font-weight: 400;
     .logo-flex>p{
        font-size: 19px;
     }
+    input{
+        font-size: 19px;
+    }
     .logo-flex>img {
         height: 1.6rem;
         margin-right: 1.2rem;
@@ -424,7 +442,7 @@ font-weight: 400;
         width: 40vw;
     }
         .content-area {
-            width: 60vw;
+            width: 100%;
         }
 
     .spotify-logo>img{
@@ -432,7 +450,10 @@ font-weight: 400;
     }
 
    
-    .logo-flex>p {
+    .logo-flex>p{
+        font-size: 18px;
+    }
+    input{
         font-size: 18px;
     }
 
@@ -479,7 +500,7 @@ font-weight: 400;
     }
 
     .content-area {
-        width: 60vw;
+        width: 100%;
     }
 
     .spotify-logo>img {
@@ -487,7 +508,10 @@ font-weight: 400;
     }
 
 
-    .logo-flex>p {
+    .logo-flex>p{
+        font-size: 14px;
+    }
+    input{
         font-size: 14px;
     }
 
@@ -537,7 +561,7 @@ font-weight: 400;
      }
      .play-music-area {
 
-    align-items: flex-start;
+    align-items:center;
     padding-top: 14px;
      }
      .song-extra-control>img {
