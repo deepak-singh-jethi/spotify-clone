@@ -516,7 +516,10 @@ font-weight: 400;
     .spotify-logo>img {
         height: 1.8rem !important;
     }
-
+   .logo-flex {
+   
+       padding: 6px 0px 2px 7px;
+   }
 
     .logo-flex>p{
         font-size: 14px;
@@ -556,10 +559,13 @@ font-weight: 400;
             font-size: 9px;
         }
         .ul>li{
-            font-size: 10px;
+            font-size: 13px;
         }
 /* -------- */
-
+           .song-control {
+               justify-content: space-between;
+           
+           }
 
          .song-extra-control{
        gap: 2px;
@@ -590,10 +596,10 @@ font-weight: 400;
     .music-art{
         width: 13%;
     }
-        .song-playing {
-            margin-left: 1vw;
-            gap: 5px;
-            width: 32vw;
+    .song-playing {
+      margin-left: 1vw;
+      gap: 5px;
+      width: 32vw;
         }
      .like-a-song{
         height: 1.2vh;
@@ -604,9 +610,9 @@ font-weight: 400;
      .song-control-upper {
         gap: 3px;
      }
-         .song-control-lower {
-            gap: 2px;
-         }
+    .song-control-lower {
+         gap: 2px;
+    }
      .song-control-lower>img {
       width: 50%;
      }
@@ -621,11 +627,15 @@ font-weight: 400;
     .shows>img{
      width: 65%;
     }
-        .side-list>ul>li {
+    .side-list>ul>li {
      
-            font-size: 10px;
+    font-size: 10px;
            
-        }
+    }
+    .side-list>ul>li {
+    padding: 2px 0px 2px 7px;
+          
+    }
 }
 @media only screen and (max-width:310px){
     li{
