@@ -605,7 +605,7 @@ font-weight: 400;
         height: 1.2vh;
      }
      #play-button {
-      height: 3vh;
+      height: 2.1vh;
      }
      .song-control-upper {
         gap: 3px;
@@ -650,7 +650,7 @@ font-weight: 400;
      }
     
 
-     
+
     
 }
 
@@ -658,7 +658,7 @@ font-weight: 400;
 @media (orientation: landscape) {
    .side-bar {
         overflow-y: auto;
-        padding-top: 50px;
+        padding-top: 80px;
     }
     .content-area{
         overflow-y: auto;
