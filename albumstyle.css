@@ -1,0 +1,81 @@
+/* side -bar -css  */
+
+
+.album-art>img{
+    width:12vw !important;
+}
+.side-bar{
+    justify-content: space-between;
+
+}
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.side-bar-content {
+    justify-content: space-between !important;
+    margin-top: 10px !important;
+}
+.playlist-section-album>p{
+    margin-left: 15px;
+    color: var(--gray-text);
+}
+.logo-flex>p{
+    color: var(--gray-text);
+    font-size: 16px !important ;
+}
+
+.logo-flex>p:hover{
+  color: white;
+}
+.spotify-logo{
+padding-left: 8px !important;
+}
+.spotify-logo>img{
+  height: 2rem !important;
+  
+}
+
+.logo-flex>img{
+    opacity: 0.7;
+}
+.logo-flex>img:hover {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 954px) and (min-width: 670px) {
+    /* ---------------------*/
+    /* side-bar */
+    .logo-flex>p{
+        font-size: 16px !important;
+    }
+    ..spotify-logo>img {
+        height: 2rem !important;
+    }
+
+}
+@media only screen and (max-width: 671px) and (min-width: 579px) {
+    /* --------------------*/
+    /* side-bar */
+    .side-bar{
+        width: 40vw !important;
+    }
+         .album-art>img {
+             width: 30vw !important;
+         }
+}
+
+@media only screen and (max-width: 578px) and (min-width: 310px) {
+    /* --------------------- */
+    /* side-bar */
+    .side-bar{
+        width: 43vw !important;
+    }
+    .album-art>img{
+        width: 35vw !important;
+    }
+        .logo-flex>p {
+            font-size: 9px !important;
+        }
+}

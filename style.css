@@ -376,7 +376,7 @@ font-weight: 400;
     height: 20%;
 }
 
-/* smaller size laptops and larger tabs */
+
 @media only screen and (max-width: 954px) and (min-width: 670px){
    .side-bar{
     width: 30vw;
@@ -389,13 +389,13 @@ font-weight: 400;
     }
    
     .logo-flex>p{
-       font-size: 19px;
+       font-size: 16px;
     }
     input{
         font-size: 19px;
     }
     .logo-flex>img {
-        height: 1.6rem;
+        height: 1.3rem;
         margin-right: 1.2rem;
     }
     .playlist{
@@ -441,7 +441,7 @@ font-weight: 400;
     width: 25vw;
      }
 }
-/* tabs and i-pads*/
+
 @media only screen and (max-width: 671px) and (min-width: 579px) {
 .side-bar {
         width: 40vw;
@@ -456,16 +456,21 @@ font-weight: 400;
 
    
     .logo-flex>p{
-        font-size: 18px;
+        font-size: 14px;
     }
     input{
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .logo-flex>img {
         height: 1.1rem;
         margin-right: 1.1rem;
     }
+        .side-list>ul>li {
+          
+            font-size: 13px;
+           
+        }
 
     /* extra added */
      .song-extra-control{
@@ -498,11 +503,7 @@ font-weight: 400;
     gap: 9px;
     width: 25vw;
      }
-         .nav-line-seperation {
-             line-height: 3rem;
-         }
 }
-/* phones and foldable phones */
 @media only screen and (max-width: 578px) and (min-width: 310px) {
     .side-bar {
         width: 40vw;
@@ -540,7 +541,7 @@ font-weight: 400;
            height: 40px;
         }
         .playlist>p{
-            font-size: 9px;
+            font-size: 14px;
         }
         .playlist-artist-area>h1 {
           font-weight: 900;
@@ -563,6 +564,7 @@ font-weight: 400;
          .song-extra-control{
        gap: 2px;
      }
+
      .play-music-area{
         height: 11vh;
         align-items: flex-start;
@@ -574,7 +576,7 @@ font-weight: 400;
     padding-top: 0px;
      }
      .song-extra-control>img {
-        height: 2.2vh;
+        height: 1.2vh;
      }
      .song-extra-control{
         margin-right: 4px;
@@ -588,11 +590,11 @@ font-weight: 400;
     .music-art{
         width: 13%;
     }
-    .song-playing {
-    margin-left: 1vw;
-    gap: 9px;
-    width: 25vw;
-     }
+        .song-playing {
+            margin-left: 1vw;
+            gap: 5px;
+            width: 32vw;
+        }
      .like-a-song{
         height: 1.2vh;
      }
@@ -602,6 +604,9 @@ font-weight: 400;
      .song-control-upper {
         gap: 3px;
      }
+         .song-control-lower {
+            gap: 2px;
+         }
      .song-control-lower>img {
       width: 50%;
      }
@@ -621,9 +626,6 @@ font-weight: 400;
             font-size: 10px;
            
         }
-                .nav-line-seperation {
-                    line-height: 3.7;
-                }
 }
 @media only screen and (max-width:310px){
     li{
