@@ -637,6 +637,7 @@ font-weight: 400;
           
     }
 }
+/* smaller screen */
 @media only screen and (max-width:310px){
     li{
         font-size: 8px;
@@ -649,4 +650,20 @@ font-weight: 400;
      }
     
     
+}
+
+/* landscape mode  */
+@media (orientation: landscape) {
+   .side-bar {
+        overflow-y: auto;
+        padding-top: 50px;
+    }
+    .content-area{
+        overflow-y: auto;
+        padding-top: 50px;
+    }
+        .content-area {
+         
+            padding-top: 19px;
+        }
 }
