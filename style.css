@@ -514,7 +514,7 @@ font-weight: 400;
     }
 
     .spotify-logo>img {
-        height: 1.8rem !important;
+        height: 1.8rem;
     }
    .logo-flex {
    
@@ -655,7 +655,7 @@ font-weight: 400;
 }
 
 /* landscape mode  */
-@media (orientation: landscape) {
+@media only screen and(orientation: landscape) {
    .side-bar {
         overflow-y: auto;
         padding-top: 80px;
