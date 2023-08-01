@@ -87,8 +87,7 @@ input{
 }
 input::placeholder{
     color: white;
-    font-size: 18px;
-    height: fit-content;
+    font-weight: 400;
 }
 /* spotify-logo */
 .spotify-logo>img{
@@ -377,7 +376,7 @@ font-weight: 400;
     height: 20%;
 }
 
-
+/* smaller size laptops and larger tabs */
 @media only screen and (max-width: 954px) and (min-width: 670px){
    .side-bar{
     width: 30vw;
@@ -442,7 +441,7 @@ font-weight: 400;
     width: 25vw;
      }
 }
-
+/* tabs and i-pads*/
 @media only screen and (max-width: 671px) and (min-width: 579px) {
 .side-bar {
         width: 40vw;
@@ -499,7 +498,11 @@ font-weight: 400;
     gap: 9px;
     width: 25vw;
      }
+         .nav-line-seperation {
+             line-height: 3rem;
+         }
 }
+/* phones and foldable phones */
 @media only screen and (max-width: 578px) and (min-width: 310px) {
     .side-bar {
         width: 40vw;
@@ -618,6 +621,9 @@ font-weight: 400;
             font-size: 10px;
            
         }
+                .nav-line-seperation {
+                    line-height: 3.7;
+                }
 }
 @media only screen and (max-width:310px){
     li{
